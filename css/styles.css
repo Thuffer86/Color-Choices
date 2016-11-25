@@ -81,7 +81,7 @@ article button:hover {
 .color-group {
     background-color: #f8f9fa;
     border: 1px solid #e0e0e0;
-    padding: 1.2em .3em .1em .3em;
+    padding: .2em .2em .2em .2em;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     max-width: 75%;
     margin: 4em auto;
@@ -91,6 +91,10 @@ article button:hover {
 button:focus {
     outline:0;
     border: none!important;
+}
+
+ul {
+    font-size: 0px;
 }
 
 .btn {
@@ -107,17 +111,6 @@ button:focus {
     cursor: pointer;
     transition: .35s;
     width: 100%;
-}
-
-.title {
-    list-style-type: none;
-    text-align: center;
-    padding-bottom: .9em;
-    color: #404040;
-    font-size: 1em;
-    letter-spacing: 1px;
-    font-weight: 400;
-    border-bottom: solid 1px #e0e0e0;
 }
 
 .color:hover {
