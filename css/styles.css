@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+    padding: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background-color: #f1f3f5;
+}
+
+svg {
+  width: 6em;
+  height: 6em;
+  stroke-width: 0;
+  stroke: #fff5f5;
+  fill: #fff5f5;
+  margin: 0em 0;
+}
+
+
+.header {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #fa5252;
+}
+
+h1,h6 {
+  color: #fff5f5;
+  line-height: 1.6em;
+}
+
+h1 {
+    font-size: 1.1em;
+    max-width: 75%;
+    margin: 1.5em auto 0 auto;
+}
+
+h6 {
+    font-size: .8em;
+    font-weight: 400;
+    max-width: 75%;
+    margin: 1em auto;
+}
+
+article {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+article button {
+    margin-top: 1em;
+    padding: .6em 1em;
+    background-color: #fa5252;
+    border: solid 2px #fff5f5;
+    color: #fff5f5;
+    font-size: 1.2em;
+    box-shadow: 0px 0px 13px 3px rgba(255,245,245,.8); 
+    cursor: pointer;
+    transition: .35s;
+}
+
+article button:hover {
+    color: #fa5252;
+    background-color: #fff5f5;
+}
+
+.colorChoice__container {
+    padding: 2em 0;
+    height: auto;
+    background-color: #f1f3f5;
+    display: block;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+.color-group {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    padding: 1.2em .3em .1em .3em;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    max-width: 75%;
+    margin: 4em auto;
+    border-radius: 6px;
+}
+
+button:focus {
+    outline:0;
+    border: none!important;
+}
+
+.btn {
+    width: 100%;
+    border: 0 !important;
+    margin: 0;
+    padding: 0;
+}
+
+
+.color {
+    list-style-type: none;
+    height: 35px;
+    cursor: pointer;
+    transition: .35s;
+    width: 100%;
+}
+
+.title {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: .9em;
+    color: #404040;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    border-bottom: solid 1px #e0e0e0;
+}
+
+.color:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 800px) and (orientation: landscape)  {
+    body {
+      font-size:  14px !important;  
+    }  
+}
+
+@media (min-width: 600px) {
+    
+    body {
+        font-size: 20px;
+}
+    
+    
+    .colorChoice__container {
+        display: flex;
+        padding: 2em 5%;
+    }
+    
+    .color-group {
+        margin: 2em auto;
+        width: 40%;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    
+    .color-group {
+        width: 20%;
+    }
+}
