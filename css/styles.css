@@ -10,8 +10,8 @@ body {
 }
 
 svg {
-  width: 6em;
-  height: 6em;
+  width: 20%;
+  height: 20%;
   stroke-width: 0;
   stroke: #fff5f5;
   fill: #fff5f5;
@@ -33,13 +33,13 @@ h1,h6 {
 }
 
 h1 {
-    font-size: 1.1em;
-    max-width: 75%;
+    font-size: 1em;
+    max-width: 90%;
     margin: 1.5em auto 0 auto;
 }
 
 h6 {
-    font-size: .8em;
+    font-size: .7em;
     font-weight: 400;
     max-width: 75%;
     margin: 1em auto;
@@ -53,7 +53,7 @@ article {
 
 article button {
     margin-top: 1em;
-    padding: .6em 1em;
+    padding: .6em .6em;
     background-color: #fa5252;
     border: solid 2px #fff5f5;
     color: #fff5f5;
@@ -129,6 +129,14 @@ ul {
         font-size: 20px;
 }
     
+    h1 {
+        font-size: 1.2em;
+    }
+    
+    h6 {
+        font-size: .9em;
+    }
+    
     
     .colorChoice__container {
         display: flex;
@@ -143,6 +151,11 @@ ul {
 }
 
 @media (min-width: 1200px) {
+    
+    svg {
+        width: 12%;
+        height: 12%
+    }
     
     .color-group {
         width: 20%;
