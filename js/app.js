@@ -9,7 +9,7 @@ $(document).ready(function() {
 	e.clearSelection();
 });
 clip.on('error', function(e) {
-	alert('Hi Kachina Im your phone and Im self aware.');
+	alert('Safari not supported :/');
 });
     
 });
