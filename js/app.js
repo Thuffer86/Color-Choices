@@ -9,7 +9,7 @@ $(document).ready(function() {
 	e.clearSelection();
 });
 clip.on('error', function(e) {
-	alert('Safari not supported :/');
+	alert('Safari not supported at this time');
 });
     
 });
